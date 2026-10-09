@@ -14,6 +14,8 @@ I build data and machine learning tools, mostly in Python. My main work is on cl
 |---|---|---|
 | [vibration-monitoring-rag](https://github.com/Sammyjoseph999/vibration-monitoring-rag) | RAG assistant over vendor and reference pages, running locally on open models | Right source ranked first for 10 of 10 test questions after a chunking fix |
 | [bird-count-intake-agent](https://github.com/Sammyjoseph999/bird-count-intake-agent) | Tool-using agent (FastMCP + OpenAI) that cleans messy field notes into validated records | Rules enforced in a tool layer covered by 49 offline tests |
+| [used-car-prices](https://github.com/Sammyjoseph999/used-car-prices) | Price model on 427,000 Craigslist listings, with the cleaning tested | 44% of usable listings were reposts; removing them changes the test score from 13% to an honest 16% median error |
+| [car-manual-rag](https://github.com/Sammyjoseph999/car-manual-rag) | Dashboard-warning assistant that retrieves and quotes a car manual | Right entry first for 31 of 32 warnings, against 24 of 32 for fixed-size chunks |
 | [ipo-listing-gains-pytorch](https://github.com/Sammyjoseph999/ipo-listing-gains-pytorch) | PyTorch classifier for IPO listing gains, compared with logistic regression | 65-67% accuracy over 20 splits against a 55% baseline; the simple model wins |
 | [credit-card-approval-prediction](https://github.com/Sammyjoseph999/credit-card-approval-prediction) | scikit-learn pipeline with imputation, encoding and grid search | 86% test accuracy, 0.95 ROC AUC |
 | [Classify-Song-Genres-from-Audio-Data](https://github.com/Sammyjoseph999/Classify-Song-Genres-from-Audio-Data) | Genre classification on imbalanced data, comparing class weights with undersampling | Minority-class recall raised from 0.49 to 0.79 |
