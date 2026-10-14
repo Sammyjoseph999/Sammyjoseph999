@@ -40,9 +40,9 @@ More analysis and modelling projects are in my [repositories](https://github.com
 
 - **Languages:** Python, SQL
 - **Data and modelling:** pandas, NumPy, scikit-learn, PyTorch, statsmodels, MLflow
-- **LLM applications:** sentence-transformers, Hugging Face Transformers, LangChain, LlamaIndex, FastMCP, OpenAI API
+- **Search and LLM applications:** sentence-transformers, BM25, ChromaDB, Qdrant, Hugging Face Transformers, LangChain, LlamaIndex, FastMCP, Pydantic, OpenAI API
 - **Geospatial and climate:** xarray, Google Earth Engine
-- **Practice:** pytest, Git, Jupyter, DuckDB
+- **Practice:** pytest, GitHub Actions, Git, Jupyter, DuckDB, REST APIs
 
 ## How I work
 
