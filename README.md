@@ -15,7 +15,7 @@ I build data and machine learning tools, mostly in Python. My main work is on cl
 | Project | What it is | Result |
 |---|---|---|
 | [arxiv-hybrid-search](https://github.com/Sammyjoseph999/arxiv-hybrid-search) | Keyword, vector and hybrid search compared on 5,000 arXiv papers | Keywords win for a known paper (93% against 84%), vectors for a topic; rank-fusion hybrid was worse than keywords alone |
-| [vibration-monitoring-rag](https://github.com/Sammyjoseph999/vibration-monitoring-rag) | RAG assistant over vendor and reference pages, running locally on open models | Right source ranked first for 10 of 10 test questions after a chunking fix |
+| [vibration-monitoring-rag](https://github.com/Sammyjoseph999/vibration-monitoring-rag) | RAG assistant over vendor and reference pages, running on open models. [Live demo](https://huggingface.co/spaces/sammyjoseph/vibration-monitoring-assistant) | Right source ranked first for 10 of 10 test questions after a chunking fix |
 | [car-manual-rag](https://github.com/Sammyjoseph999/car-manual-rag) | Dashboard-warning assistant that retrieves and quotes a car manual | Right entry first for 31 of 32 warnings, against 24 of 32 for fixed-size chunks |
 | [bird-count-intake-agent](https://github.com/Sammyjoseph999/bird-count-intake-agent) | Tool-using agent (FastMCP + OpenAI) that cleans messy field notes into validated records | Rules enforced in a tool layer covered by 49 offline tests |
 
