@@ -25,6 +25,8 @@ I build data and machine learning tools, mostly in Python. My main work is on cl
 |---|---|---|
 | [used-car-prices](https://github.com/Sammyjoseph999/used-car-prices) | Price model on 427,000 Craigslist listings, with the cleaning tested | 44% of usable listings were reposts; removing them changes the test score from 13% to an honest 16% median error |
 | [insurance-charges](https://github.com/Sammyjoseph999/insurance-charges) | What drives medical insurance charges, with three models compared | A linear model with one smoker/BMI interaction beats tuned gradient boosting (R² 0.91 against 0.90) |
+| [movie-recommender](https://github.com/Sammyjoseph999/movie-recommender) | Five top-N recommenders compared on MovieLens, scored on each user's later ratings | PureSVD and EASE beat a popularity list by about 40%; the classic correlation approach falls 31% below it |
+| [credit-card-segments](https://github.com/Sammyjoseph999/credit-card-segments) | Behavioural segments of 30,000 card customers, checked for stability and against later defaults | Four stable segments; one eighth of customers defaults at 59%, against 16-19% for the rest |
 | [ipo-listing-gains-pytorch](https://github.com/Sammyjoseph999/ipo-listing-gains-pytorch) | PyTorch classifier for IPO listing gains, compared with logistic regression | 65-67% accuracy over 20 splits against a 55% baseline; the simple model wins |
 
 ### Data analysis
@@ -39,7 +41,7 @@ More analysis and modelling projects are in my [repositories](https://github.com
 ## Tools I use
 
 - **Languages:** Python, SQL
-- **Data and modelling:** pandas, NumPy, scikit-learn, PyTorch, statsmodels, MLflow
+- **Data and modelling:** pandas, NumPy, SciPy, scikit-learn, PyTorch, statsmodels, MLflow
 - **Search and LLM applications:** sentence-transformers, BM25, ChromaDB, Qdrant, Hugging Face Transformers, LangChain, LlamaIndex, FastMCP, Pydantic, OpenAI API
 - **Geospatial and climate:** xarray, Google Earth Engine
 - **Practice:** pytest, GitHub Actions, Git, Jupyter, DuckDB, REST APIs
