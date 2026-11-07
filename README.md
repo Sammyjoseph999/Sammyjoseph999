@@ -17,6 +17,7 @@ I build data and machine learning tools, mostly in Python. My main work is on cl
 | [arxiv-hybrid-search](https://github.com/Sammyjoseph999/arxiv-hybrid-search) | Keyword, vector and hybrid search compared on 5,000 arXiv papers | Keywords win for a known paper (93% against 84%), vectors for a topic; rank-fusion hybrid was worse than keywords alone |
 | [vibration-monitoring-rag](https://github.com/Sammyjoseph999/vibration-monitoring-rag) | RAG assistant over vendor and reference pages, running on open models. [Live demo](https://huggingface.co/spaces/sammyjoseph/vibration-monitoring-assistant) | Right source ranked first for 10 of 10 test questions after a chunking fix |
 | [car-manual-rag](https://github.com/Sammyjoseph999/car-manual-rag) | Dashboard-warning assistant that retrieves and quotes a car manual | Right entry first for 31 of 32 warnings, against 24 of 32 for fixed-size chunks |
+| [do-more-agents-help](https://github.com/Sammyjoseph999/do-more-agents-help) | Single agent vs supervisor vs swarm on 45 finance questions with exact answers from SEC filings | The supervisor was most accurate (71% against 62%) at 1.8× the tokens; the single agent filled calculations with figures it never looked up in 42% of runs |
 | [bird-count-intake-agent](https://github.com/Sammyjoseph999/bird-count-intake-agent) | Tool-using agent (FastMCP + OpenAI) that cleans messy field notes into validated records | Rules enforced in a tool layer covered by 49 offline tests |
 
 ### Machine learning
@@ -42,7 +43,7 @@ More analysis and modelling projects are in my [repositories](https://github.com
 
 - **Languages:** Python, SQL
 - **Data and modelling:** pandas, NumPy, SciPy, scikit-learn, PyTorch, statsmodels, MLflow
-- **Search and LLM applications:** sentence-transformers, BM25, ChromaDB, Qdrant, Hugging Face Transformers, LangChain, LlamaIndex, FastMCP, Pydantic, OpenAI API
+- **Search and LLM applications:** sentence-transformers, BM25, ChromaDB, Qdrant, Hugging Face Transformers, LangChain, LlamaIndex, FastMCP, LangGraph, MLX, Pydantic, OpenAI API
 - **Geospatial and climate:** xarray, Google Earth Engine
 - **Practice:** pytest, GitHub Actions, Git, Jupyter, DuckDB, REST APIs
 
